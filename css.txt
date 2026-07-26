@@ -243,8 +243,10 @@ A　楽器の習得には毎日の努力が必要ですので、やむを得な�
 <h2>入会の手続き</h2>
 
 <p>
-入会届をダウンロードいただき、提出ください。<br>
-<a href="files/nyuukai.pdf"
+<p>入会届をダウンロードいただき、ご記入のうえご提出ください。</p>
+
+<a href="nyuukai.pdf"
+   download
    style="
       display:inline-block;
       background:#0078d7;
@@ -253,9 +255,9 @@ A　楽器の習得には毎日の努力が必要ですので、やむを得な�
       text-decoration:none;
       border-radius:8px;
       font-size:18px;
-      font-weight:bold;"
-   target="_blank">
-    📄 入会届
+      font-weight:bold;">
+    📄 入会届をダウンロード
+</a>
 </a>
 </a>
 </p>
