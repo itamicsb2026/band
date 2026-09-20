@@ -296,6 +296,16 @@ A　楽器の習得には毎日の努力が必要ですので、やむを得な�
 伊丹地域クラブ<br>
 みんなで音楽を楽しもう♪
 </p>
+.photo-area {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.activity-photo {
+    width: 250px;
+    height: auto;
+}
 
 </footer>
 
