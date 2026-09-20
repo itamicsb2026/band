@@ -3,121 +3,179 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>ITAMI CHUO Symphonic Band</title>
-    
+
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-    font-family:"Yu Gothic","Meiryo",sans-serif;
-    background:#f5f7fa;
-    color:#333;
-    line-height:1.8;
+body {
+    font-family: "Yu Gothic", "Meiryo", sans-serif;
+    background: #f5f7fa;
+    color: #333;
+    line-height: 1.8;
 }
 
-header{
-    background:#003366;
-    color:#fff;
-    text-align:center;
-    padding:50px 20px;
+header {
+    background: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
 }
 
-header h1{
-    font-size:40px;
-    margin-bottom:10px;
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 
-header p{
-    font-size:20px;
+header p {
+    font-size: 20px;
 }
 
-.container{
-    width:90%;
-    max-width:1000px;
-    margin:40px auto;
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
 }
 
-section{
-    background:#fff;
-    margin-bottom:25px;
-    padding:30px;
-    border-radius:10px;
-    box-shadow:0 3px 8px rgba(0,0,0,.08);
+section {
+    background: #fff;
+    margin-bottom: 25px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,.08);
 }
 
-section h2{
-    color:#003366;
-    border-left:6px solid #0078d7;
-    padding-left:12px;
-    margin-bottom:20px;
+section h2 {
+    color: #003366;
+    border-left: 6px solid #0078d7;
+    padding-left: 12px;
+    margin-bottom: 20px;
 }
 
-ul{
-    padding-left:20px;
+ul {
+    padding-left: 20px;
 }
 
-.highlight{
-    text-align:center;
-    font-size:22px;
-    font-weight:bold;
-    color:#d60000;
-    margin:20px 0;
+.highlight {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #d60000;
+    margin: 20px 0;
 }
 
-.button-area{
-    text-align:center;
-    margin-top:30px;
+/* 写真 */
+
+.photo-area {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
 }
 
-.btn{
-    display:inline-block;
-    padding:15px 35px;
-    margin:10px;
-    text-decoration:none;
-    color:white;
-    border-radius:8px;
-    font-size:18px;
-    transition:.3s;
+.activity-photo {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
 }
 
-.btn:hover{
-    opacity:.85;
+/* 指導者の写真 */
+
+.leader-photo {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
-.green{
-    background:#28a745;
+/* ボタン */
+
+.button-area {
+    text-align: center;
+    margin-top: 30px;
 }
 
-.orange{
-    background:#ff8800;
+.btn {
+    display: inline-block;
+    padding: 15px 35px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: .3s;
 }
 
-.blue{
-    background:#0078d7;
+.btn:hover {
+    opacity: .85;
 }
 
-footer{
-    background:#003366;
-    color:white;
-    text-align:center;
-    padding:20px;
-    margin-top:40px;
+.blue {
+    background: #0078d7;
 }
+
+/* フッター */
+
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* スマートフォン */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    header p {
+        font-size: 17px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    .highlight {
+        font-size: 19px;
+    }
+
+    .activity-photo {
+        width: 250px;
+        max-width: 100%;
+    }
+
+}
+
 </style>
-
 </head>
+
 <body>
 
 <header>
+
 <h1>ITAMI CHUO Symphonic Band</h1>
+
 <p>伊丹地域クラブ</p>
+
 </header>
 
+
 <div class="container">
+
+
+<!-- 活動紹介 -->
 
 <section>
 
@@ -131,91 +189,102 @@ ITAMI CHUO Symphonic Bandは、
 音楽が好きな仲間を募集しています。
 </p>
 
+<p>
+初心者・経験者歓迎。<br>
+楽器経験がない方も歓迎します。
+</p>
+
 </section>
+
+
+<!-- 活動の様子 -->
 
 <section>
-    
-<section class="news">
 
-<h2>新着情報</h2>
+<h2>活動の様子</h2>
 
-<ul>
-
-<li>
-９月２０日（日）に体験会を実施しました。
-小学６年生から中学2年まで、30人を超える児童生徒が参加してくれました。
-経験者は課題曲「夕映えの丘」をみんなで練習しました。
-初心者は楽器を体験し、体験会を終了しました。
-12月1日から活動がスタートします。
-ぜひ、みんなで熱く、楽しい、感動することのできる音楽をしましょう。
-みなさんのご参加、お待ちしています。
-</li>
 <div class="photo-area">
 
-    <img src="S__10592278.jpg"
-         alt="吹奏楽の活動風景"
-         class="activity-photo">
+<img src="S__10592278.jpg"
+     alt="吹奏楽の活動風景"
+     class="activity-photo">
 
-    <img src="S__24526854.jpg"
-         alt="吹奏楽の活動風景"
-         class="activity-photo">
+<img src="S__24526854.jpg"
+     alt="吹奏楽の活動風景"
+     class="activity-photo">
 
 </div>
-<li>
-
-</a>
-
-</li>
-
-</ul>
 
 </section>
+
+
+<!-- 募集対象 -->
+
+<section>
 
 <h2>募集対象</h2>
 
 <ul>
+
 <li>伊丹市内の中学生及び小学６年生</li>
+
 <li>吹奏楽に興味がある人</li>
+
 </ul>
 
 </section>
+
+
+<!-- 活動内容 -->
 
 <section>
 
 <h2>活動内容（予定）</h2>
 
 <ul>
+
 <li>伊丹市吹奏楽連盟主催定期演奏会（７月）</li>
+
 <li>吹奏楽コンクール（７月）</li>
+
 <li>地域などからの依頼演奏</li>
+
 <li>吹奏楽の集い（９月）３年生引退</li>
 
 </ul>
 
-<h2>指導方針</h2>
-
-<p>
-生徒も聴いている方も感動することのできる音楽を目指します。<br>
-また、一生懸命に取り組むことの楽しさを、みんなで共有していきます。
-</p>
-    
 </section>
+
+
+<!-- 活動日 -->
 
 <section>
 
 <h2>活動日</h2>
 
+<p style="color:red;">
+＊活動開始日は現在、学校と調整中です。
+</p>
+
 <ul>
-<span style="color:red;">＊12月１日から活動予定です。</span>
-<li>毎週月・火・木・金曜日５時～７時</li>
-<li>毎週土曜日９時～１２時</li>
+
+<li>毎週月・火・木・金曜日 ５時～７時</li>
+
+<li>毎週土曜日 ９時～１２時</li>
+
 <li>演奏会前には、臨時練習があることがあります。</li>
-＊地域による指導となりますので、急遽、練習を中止する場合もあります。<br>
-その場合は、事前に連絡します。<br>
 
 </ul>
 
+<p>
+地域による指導となりますので、急遽、練習を中止する場合もあります。<br>
+その場合は、事前に連絡します。
+</p>
+
 </section>
+
+
+<!-- 活動場所 -->
 
 <section>
 
@@ -227,145 +296,183 @@ ITAMI CHUO Symphonic Bandは、
 
 </section>
 
+
+<!-- 指導者 -->
+
 <section>
 
 <h2>指導者</h2>
 
-<div class="instructor">
+<p>
 
-    <h3>代表者及び指導者　小宮 正照</h3>
+<img src="komiya.jpg"
+     alt="小宮 正照"
+     class="leader-photo">
 
-    <img src="komiya.jpg"
-         alt="小宮 正照"
-         width="150">
+<br>
 
-    <p>
-        伊丹シティフィルハーモニー管弦楽団・宝塚市吹奏楽団　トロンボーン奏者<br>
-        吹奏楽コンクール小学校・中学校・一般の部で全国大会出場を経験<br>
-        吹奏楽・オーケストラ・アンサンブルなど幅広く活動を行っている。
-    </p>
+<strong>代表及び指導者　小宮 正照</strong>
 
-</div>
+</p>
 
+<p>
+伊丹シティフィルハーモニー管弦楽団・宝塚市吹奏楽団
+トロンボーン奏者
+</p>
 
-<div class="instructor">
+<p>
+吹奏楽コンクール小学校・中学校・一般の部で全国大会出場を経験。
+</p>
 
-    <h3>アドバイザー兼定期講師（指導者）　椋尾 豊</h3>
+<p>
+吹奏楽・オーケストラ・アンサンブルなど幅広く活動を行っている。
+</p>
 
-    <img src="mukuo.jpg"
-         alt="椋尾 豊"
-         width="150">
+<hr style="margin:25px 0;">
 
-    <p>
-        市内の小・中学校で吹奏楽の指導
-    </p>
+<p>
+<strong>アドバイザー兼 定期講師（指導者）　椋尾 豊</strong>
+</p>
 
-    <p>
-        その他、必要に応じて講師及びボランティアを依頼します。
-    </p>
-
-</div>
-
-</section>
+<p>
+伊丹市内の小学校・中学校で吹奏楽部を数多く指導。
+</p>
 
 <p>
 その他、必要に応じて講師及びボランティアを依頼します。
-</p> 
-　
-　
 </p>
 
 </section>
 
+
+<!-- 会費 -->
+
 <section>
-
-
 
 <h2>会費</h2>
 
 <ul>
-<li>入会費２，０００円（保険・地域クラブ関係諸費用に充当します。）</li>
-<li>月会費５，０００円（講師料・楽譜購入・楽器修繕などに充当します。）</li>
-<li>コンクールなどの参加費用について、別途徴収することがあります。</li>
+
+<li>
+入会費２，０００円
+（保険・地域クラブ関係諸費用に充当します。）
+</li>
+
+<li>
+月会費５，０００円
+（講師料・楽譜購入・楽器修繕などに充当します。）
+</li>
+
+<li>
+コンクールなどの参加費用について、
+別途徴収することがあります。
+</li>
 
 </ul>
 
 </section>
+
+
+<!-- よくある質問 -->
 
 <section>
 
 <h2>よくある質問</h2>
 
 <ul>
-<li>Q　北中学校以外の方でも入会できますか。</li>
-A　入会はできますが、ご自身で北中学校まで来れる方に限ります。（通いやすい地域クラブをお選びください。）</li>
-<li>Q　楽器はいりますか</li>
-A　学校の楽器が使用できます。</li>
-<li>Q　楽器の消耗品（リード）は自己負担ですか。</li>
-A　会費から支出を基本としますが、会計状況によってはご負担をお願いすることがあります。</li>
-<li>Q　保護者の役割などはありますか。</li>
-A　連絡などをお願いするほか、車だしや付き添いをお願いすることがありますが、負担がない範囲でのお願いになります。</li>
-<li>Q　参加はできるときでいいですか。</li>
-A　楽器の習得には毎日の努力が必要ですので、やむを得ない場合を除き、原則は参加でお願いします。</li>　
+
+<li>
+<strong>Q　北中学校以外の方でも入会できますか。</strong><br>
+A　入会はできますが、ご自身で北中学校まで来れる方に限ります。
+（通いやすい地域クラブをお選びください。）
+</li>
+
+<br>
+
+<li>
+<strong>Q　楽器はいりますか。</strong><br>
+A　学校の楽器が使用できます。
+</li>
+
+<br>
+
+<li>
+<strong>Q　楽器の消耗品（リード）は自己負担ですか。</strong><br>
+A　会費から支出を基本としますが、会計状況によってはご負担をお願いすることがあります。
+</li>
+
+<br>
+
+<li>
+<strong>Q　保護者の役割などはありますか。</strong><br>
+A　連絡などをお願いするほか、車だしや付き添いをお願いすることがありますが、負担がない範囲でのお願いになります。
+</li>
+
+<br>
+
+<li>
+<strong>Q　参加はできるときでいいですか。</strong><br>
+A　楽器の習得には毎日の努力が必要ですので、やむを得ない場合を除き、原則は参加でお願いします。
+</li>
 
 </ul>
 
 </section>
+
+
+<!-- 入会手続き -->
 
 <section>
 
 <h2>入会の手続き</h2>
 
 <p>
-<p>入会届をダウンロードいただき、ご記入のうえご提出ください。（メール可）</p>
+入会届をダウンロードいただき、提出ください。
+</p>
+
+<div class="button-area">
 
 <a href="nyuukai.pdf"
-   style="
-      display:inline-block;
-      background:#0078d7;
-      color:white;
-      padding:15px 35px;
-      text-decoration:none;
-      border-radius:8px;
-      font-size:18px;
-      font-weight:bold;">
-    📄 入会届をダウンロード
+   class="btn blue"
+   target="_blank">
+   📄 入会届
 </a>
-</a>
-</a>
-</p>
+
+</div>
 
 </section>
 
+
+<!-- お問い合わせ -->
+
 <section>
-
-
-
 
 <h2>お問い合わせ</h2>
 
 <p>
 まずは見学だけでも大歓迎です。<br>
-お気軽にお問い合わせください。<br>
+お気軽にお問い合わせください。
+</p>
 
 <p>
-<a href="mailto:itamichuo.band@example.jp">
-    pjqpc004@yahoo.co.jp
+<a href="mailto:pjqpc004@yahoo.co.jp">
+pjqpc004@yahoo.co.jp
 </a>
 </p>
 
-</p>
-
-
-</div>
-
 </section>
 
+
 </div>
+
+
+<!-- フッター -->
 
 <footer>
 
-<p><strong>ITAMI CHUO Symphonic Band</strong></p>
+<p>
+<strong>ITAMI CHUO Symphonic Band</strong>
+</p>
 
 <p>
 伊丹地域クラブ<br>
